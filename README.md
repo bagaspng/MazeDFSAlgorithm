@@ -381,17 +381,6 @@ if __name__ == '__main__':
 
 **Bagas Pangestu** ([@bagaspng](https://github.com/bagaspng))
 
-- 📧 Email: bagaspangestu0407@gmail.com
-- 💼 LinkedIn: [Bagas Pangestu](https://linkedin.com/in/bagaspng)
-- 🌐 Portfolio: [bagaspng.dev](https://bagaspng.dev)
-- 🎓 Expertise: Algorithms, Data Structures, AI/ML
-
-## 🙏 Acknowledgments
-
-- **pyamaze Library** - Fantastic visualization framework
-- **Python Community** - Continuous support and resources
-- **Algorithm Researchers** - Foundational work on graph algorithms
-- **Open Source Contributors** - Inspiration and best practices
 
 ## 📚 References
 
@@ -404,18 +393,9 @@ if __name__ == '__main__':
 - [Graph Theory Tutorials](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - [pyamaze Documentation](https://pypi.org/project/pyamaze/)
 
-## 📞 Support
-
-Need help? Contact us:
-
-- 📖 **Documentation**: [Project Wiki](https://github.com/bagaspng/MazeDFSAlgorithm/wiki)
-- 🐛 **Issues**: [Report Bugs](https://github.com/bagaspng/MazeDFSAlgorithm/issues)
-- 💬 **Discussions**: [Q&A Forum](https://github.com/bagaspng/MazeDFSAlgorithm/discussions)
-- 📧 **Email**: bagaspangestu0407@gmail.com
-
----
 
 <div align="center">
+---
 
 **🌐 Exploring Algorithms, One Path at a Time 🌐**
 
