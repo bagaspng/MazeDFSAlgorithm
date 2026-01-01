@@ -206,149 +206,6 @@ Dengan proyek ini, Anda akan mempelajari:
 4. **Visualization** - Library untuk visualisasi algoritma
 5. **Python Programming** - Advanced Python concepts
 
-### 🧪 **Experimental Features**
-
-#### 🔬 **Algorithm Comparison**
-
-```python
-def compare_algorithms(maze):
-    """Bandingkan DFS dengan algoritma lain"""
-    
-    # DFS Implementation
-    dfs_start = time.time()
-    dfs_path = DFS(maze)
-    dfs_time = time. time() - dfs_start
-    
-    # BFS Implementation (for comparison)
-    bfs_start = time.time()
-    bfs_path = BFS(maze)  # Need to implement
-    bfs_time = time.time() - bfs_start
-    
-    comparison = {
-        'DFS': {
-            'time':  dfs_time,
-            'path_length': len(dfs_path),
-            'nodes_explored': len(dfs_search)
-        },
-        'BFS': {
-            'time': bfs_time, 
-            'path_length': len(bfs_path),
-            'nodes_explored': len(bfs_search)
-        }
-    }
-    
-    return comparison
-```
-
-#### 📈 **Statistics Tracking**
-
-```python
-class DFSAnalyzer:
-    def __init__(self):
-        self.stats = {
-            'total_moves': 0,
-            'backtrack_count': 0,
-            'dead_ends_found': 0,
-            'max_depth_reached': 0
-        }
-    
-    def track_move(self, from_cell, to_cell):
-        self.stats['total_moves'] += 1
-        # Track other metrics
-    
-    def generate_report(self):
-        return {
-            'efficiency': self.calculate_efficiency(),
-            'exploration_pattern': self.analyze_pattern(),
-            'performance_metrics': self. stats
-        }
-```
-
-## 🎨 Visualization Options
-
-### 🎭 **Color Schemes**
-
-```python
-# Predefined color schemes
-COLOR_SCHEMES = {
-    'classic': {
-        'search': COLOR.green,
-        'solution': COLOR.yellow,
-        'wall': COLOR.black,
-        'path': COLOR.white
-    },
-    'ocean': {
-        'search': COLOR.blue, 
-        'solution': COLOR.cyan,
-        'wall': COLOR.dark_blue,
-        'path': COLOR.light_blue
-    },
-    'fire': {
-        'search': COLOR.red,
-        'solution': COLOR.orange,
-        'wall':  COLOR.black,
-        'path': COLOR.yellow
-    }
-}
-```
-
-### 🎬 **Animation Controls**
-
-```python
-def animated_dfs(maze, delay=100):
-    """DFS dengan kontrol animasi custom"""
-    
-    search_agent = agent(maze, x, y, 
-                        footprints=True,
-                        color=COLOR.green)
-    
-    # Control animation speed
-    maze.tracePath({search_agent: dfs_search}, 
-                  delay=delay,          # ms delay between moves
-                  showMarked=True,      # Highlight decision points
-                  kill=False)           # Keep previous trails
-    
-    maze.run()
-```
-
-
-### 🔄 **Development Setup**
-
-```bash
-# Fork repository
-git clone https://github.com/your-username/MazeDFSAlgorithm.git
-cd MazeDFSAlgorithm
-
-# Create development environment
-python -m venv dfs_env
-source dfs_env/bin/activate  # On Windows: dfs_env\Scripts\activate
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-```
-
-### 📋 **Contribution Guidelines**
-
-```python
-# Code style guidelines
-# 1. Follow PEP 8
-# 2. Add type hints
-def DFS(maze:  Maze, start: Optional[Tuple[int, int]] = None) -> Tuple[List, Dict, Dict]:
-    """
-    Depth-First Search algorithm for maze solving.
-    
-    Args: 
-        maze: Maze object from pyamaze
-        start: Starting position (row, col). If None, uses (rows, cols)
-    
-    Returns: 
-        Tuple of (search_order, dfs_path, forward_path)
-    """
-    pass
-
-# 3. Add comprehensive docstrings
-# 4. Include unit tests
-```
 
 ### 🧪 **Testing**
 
@@ -377,11 +234,6 @@ if __name__ == '__main__':
 ```
 
 
-## 👨‍💻 Author
-
-**Bagas Pangestu** ([@bagaspng](https://github.com/bagaspng))
-
-
 ## 📚 References
 
 ### 📖 **Academic Papers**
@@ -395,6 +247,13 @@ if __name__ == '__main__':
 
 
 <div align="center">
+
+
+
+## 👨‍💻 Author
+
+**Bagas Pangestu** ([@bagaspng](https://github.com/bagaspng))
+  
 ---
 
 **🌐 Exploring Algorithms, One Path at a Time 🌐**
