@@ -376,27 +376,6 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-### 💡 **Enhancement Ideas**
-
-- [ ] **Algorithm Variants** - Iterative deepening DFS
-- [ ] **Maze Types** - Hexagonal, triangular mazes
-- [ ] **Pathfinding Metrics** - Path quality analysis
-- [ ] **Interactive Features** - Real-time parameter tuning
-- [ ] **Educational Mode** - Step-by-step explanation
-- [ ] **Performance Profiler** - Memory and time analysis
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Bagas Pangestu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software")...
-```
 
 ## 👨‍💻 Author
 
