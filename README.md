@@ -143,16 +143,7 @@ m._goal = goal
 dSearch, dfsPath, fwdPath = DFS(m, start)
 ```
 
-#### 🎲 **Generate Random Maze**
 
-```python
-# Create maze dengan ukuran custom
-m = maze(15, 15)  # 15x15 maze
-m. CreateMaze(2, 4)  # Goal di (2, 4)
-
-# Jalankan DFS dengan start position custom
-dSearch, dfsPath, fwdPath = DFS(m, (10, 1))
-```
 
 #### 🎨 **Kustomisasi Visualisasi**
 
