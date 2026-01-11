@@ -96,12 +96,7 @@ pip install pyamaze
 pip install -r requirements.txt
 ```
 
-### 📥 **Clone Repository**
 
-```bash
-git clone https://github.com/bagaspng/MazeDFSAlgorithm.git
-cd MazeDFSAlgorithm
-```
 
 ### 📋 **Requirements File**
 
